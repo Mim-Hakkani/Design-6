@@ -1,0 +1,126 @@
+/*-----------------------------------------------------------------------------------
+
+	Theme Name: phototime
+	Theme URI: http://www.softtech-it.com
+	Description: photo related template
+	Author: Golam Hakkani (Mim)
+	Author URI: http://www.HN-Mahmud.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 3.0
+
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Header Area
+		2.1 Menu Area
+		2.2 Welcome Text 
+		2.3 Social Media 
+	3. Getting Started
+	4. Design Area
+	5. Community Area
+	6. Subscribe Area
+	7. Download Area
+	8. Footer Area
+
+-----------------------------------------------------------------------------------*/
+
+/************** 1. Typography ************************/
+
+@font-face {
+	font-family: "something";
+	src: url('fonts/something.woff') format('woff');
+}
+
+body, p {
+	font-family: "something";
+	font-size: 20px;
+	line-height: 1.3em;
+}
+
+/**************** 2. Header Area ********/
+.header-top{
+	height: 50px;
+	overflow: hidden;
+	background-color: #000;
+
+}
+.header-top ul li{
+	display: inline-block;
+	margin-right: 25px;
+}
+.header-top ul li a{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+   margin-top: 10px;
+   display: block;
+
+}
+.navigation{
+	background-color: #023;
+}
+.images img{
+	height: 100px;
+}
+.menu ul{
+	text-align: right;
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li a{
+    display: block;
+    padding: 10px 25px;
+    color: #fff;
+    margin-top: 31px;
+    font-weight: bold;
+    font-size: 27px;
+
+}
+.menu ul li a:hover{}
+.skdslider{
+	height: 600px;
+}
+.skdslider .slide img {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    overflow: hidden;
+}
+
+.services{
+	background-color: #66D9EF;
+	overflow: hidden;
+	color: #fff;
+
+}
+.services h1{
+	font-weight: bold;
+
+}
+.services p{}
+.ser-port img{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	display: block;
+	margin: auto;
+}
+.ser-port h3{
+	text-align: center;
+	padding: 10px 0px;
+	font-weight: bold;
+	color: #000;
+}
+.ser-port p{
+    width: 80%;
+    text-align: justify;
+    margin: auto;
+    line-height: 30px;
+    padding-bottom: 34px;
+    color: #f2f2f2;
+}
+.sertext{
+	padding: 35px 0px;
+}
